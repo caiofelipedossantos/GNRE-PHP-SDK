@@ -53,7 +53,7 @@ $this->guiasgnre = new GuiasGNRE('CNPJ_EMPRESA', 'EMAIL_USUARIO', 'TOKEN');
 ```
 
 E pronto, sua plataforma já está pronta para se comunicar com a API da GuiasGNRE.
-Para emitir uma guia por exemplo, deve ser utilizado o método ``` emissaoNotaFiscal( $data ) ```:
+Para emitir uma guia por exemplo, deve ser utilizado o método ``` gerarGuia( $data ) ```:
 
 ```php
 
