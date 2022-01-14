@@ -1,0 +1,34 @@
+{
+    "name": "caiofelipe/guiasgnre",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "GPL-3.0-or-later",
+    "description": "PHP SDK da API de de guias gnre da Guias GNRE",
+    "keywords": [
+        "notafiscal",
+        "api",
+        "gnre",
+        "guias",
+        "nota fiscal",
+        "sefaz"
+    ],
+    "homepage": "https://guiasgnre.com.br/integracao.html",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "php": ">=7.0.0"
+    },
+    "authors": [
+        {
+            "name": "Caio Felipe",
+            "email": "caiofelipe.up@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "GuiasGNRE": "src/"
+        }
+    }
+}
